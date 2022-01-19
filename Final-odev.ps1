@@ -8,7 +8,7 @@ Register-ScheduledJob -Name CPU_Getir -Trigger $trigger -ScriptBlock { #her gün
 $a = Get-Process | Where-Object { $_.CPU -gt 10 } | Sort CPU -descending | Select -Property ProcessName,CPU |
 format-table  #cpu nun %10 dan fazla kullandığı işlemlerin isimleri ve cpu kullanımlarını getiriyoruz. 
 
-$logfilepath="C:\Users\samet\OneDrive\Masaüstü\işletim\Sonuç.txt" #Sonuçları yazdıracağımız dosya yolunu tanımladık.
+$logfilepath="C:\Users\LENOVO\Desktop\abc.txt" #Sonuçları yazdıracağımız dosya yolunu tanımladık.
 if(Test-Path $logfilepath)
 {
     Remove-Item $logfilepath #Eğer daha önceden eklenmiş bir sonuç varsa onu siliyoruz.

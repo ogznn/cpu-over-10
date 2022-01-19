@@ -1,3 +1,2 @@
 # IsletimSistemleri-Final
-
-Hazırladığımız programda bir schedule job oluşturuyoruz. Bu Schedule job her gün saat 13:45'te sistemin %10 ve üzerinde CPU kullandığı işlemleri bir txt dosyasına sonuçlarıyla birlikte çalıştırıldığı anın saat ve tarihini kaydediyor. Program çalıştırıldığı an kayıt edilen schedule job çalıştırılmaktadır.
+Schedule Job ile günün, haftanın veya ayın herhangi bir zaman diliminde herhangi bir .exe'yi çalıştırarak istenilen bilgileri elde ediyoruz. Burada sistem tarafından istenilen bilgiler arasında ise; cpu kullanımını 0.10 üzerinde tutan uygulamaları veya arka planda çalışan işlemleri listeliyoruz.
